@@ -1,0 +1,235 @@
+[{"round1" : {
+    "1": {
+      "bunker": {
+        "bad": 0,
+        "good": 0,
+        "perfect": 0
+      },
+      "chip": {
+        "bad": 0,
+        "good": 0,
+        "perfect": 0
+      },
+      "drive": {
+        "bad": 0,
+        "good": 0,
+        "perfect": 0
+      },
+      "drop": {
+        "bad": 0,
+        "good": 0,
+        "perfect": 0
+      },
+      "iron": {
+        "bad": 0,
+        "good": 1,
+        "perfect": 0
+      },
+      "long putt": {
+        "bad": 0,
+        "good": 0,
+        "perfect": 0
+      },
+      "medium putt": {
+        "bad": 0,
+        "good": 1,
+        "perfect": 0
+      },
+      "par": 4,
+      "pitch": {
+        "bad": 0,
+        "good": 0,
+        "perfect": 0
+      },
+      "short putt": {
+        "bad": 0,
+        "good": 1,
+        "perfect": 0
+      },
+      "wedge": {
+        "bad": 0,
+        "good": 0,
+        "perfect": 0
+      },
+      "woods": {
+        "bad": 0,
+        "good": 1,
+        "perfect": 0
+      }
+    },
+    "2": {
+        "bunker": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "chip": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "drive": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 1
+        },
+        "drop": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "iron": {
+          "bad": 0,
+          "good": 1,
+          "perfect": 0
+        },
+        "long putt": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "medium putt": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 1
+        },
+        "par": 4,
+        "pitch": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "short putt": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "wedge": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "woods": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        }
+      },
+      "3": {
+        "bunker": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "chip": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "drive": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 1
+        },
+        "drop": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "iron": {
+          "bad": 0,
+          "good": 1,
+          "perfect": 0
+        },
+        "long putt": {
+          "bad": 0,
+          "good": 1,
+          "perfect": 0
+        },
+        "medium putt": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "par": 4,
+        "pitch": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "short putt": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 1
+        },
+        "wedge": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "woods": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        }
+      },
+      "4": {
+        "bunker": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "chip": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "drive": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 1
+        },
+        "drop": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "iron": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 1
+        },
+        "long putt": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "medium putt": {
+          "bad": 1,
+          "good": 0,
+          "perfect": 0
+        },
+        "par": 4,
+        "pitch": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 0
+        },
+        "short putt": {
+          "bad": 0,
+          "good": 0,
+          "perfect": 1
+        },
+        "wedge": {
+          "bad": 0,
+          "good": 1,
+          "perfect": 0
+        },
+        "woods": {
+          "bad": 0,
+          "good": 1,
+          "perfect": 0
+        }
+      }
+}}
+]

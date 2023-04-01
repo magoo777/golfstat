@@ -1,0 +1,21 @@
+[
+  {
+    
+    "1":{
+    "bunker":{"bad":1,"good":0,"perfect":0},
+    "chip":{"bad":1,"good":0,"perfect":0}},
+    "2":{
+    "bunker":{"bad":0,"good":1,"perfect":0}
+    }
+    },
+    {
+    
+    "1":{
+    "bunker":{"bad":1,"good":0,"perfect":0},
+    "chip":{"bad":1,"good":0,"perfect":0}},
+    "2":{
+    "bunker":{"bad":0,"good":1,"perfect":0},
+    "chip":{"bad":0,"good":0,"perfect":1}
+    }
+    }
+    ]

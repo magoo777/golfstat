@@ -1,13 +1,170 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+:root {
+  /* colors */
+  --clr-dark: 204 44% 33%;
+  --clr-light: 231 77% 90%;
+  --clr-white: 0 0% 100%;
+  
+  /* font-sizes */
+  --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
+  --fs-800: 3.5rem;
+  --fs-700: 1.5rem;
+  --fs-600: 1rem;
+  --fs-500: 1rem;
+  --fs-400: 0.9375rem;
+  --fs-300: 1rem;
+  --fs-200: 0.875rem;
+  
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (min-width: 35em) {
+  :root {
+      --fs-800: 5rem;
+      --fs-700: 2.5rem;
+      --fs-600: 1.5rem;
+      --fs-500: 1.25rem;
+      --fs-400: 1rem;
+  }
 }
+
+@media (min-width: 45em) {
+  :root {
+      /* font-sizes */
+      --fs-800: 6.25rem;
+      --fs-700: 3.5rem;
+      --fs-600: 2rem;
+      --fs-500: 1.75rem;
+      --fs-400: 1.125rem;
+  }
+}
+
+/* Reset */
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*  Reset margins  */
+
+body, 
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure, 
+picture {
+  margin: 0;
+}
+
+/* set up the body */
+
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+  padding: 10px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-repeat: no-repeat;
+  background-image: url('./images/background.jpg');
+  background-color: hsla(94, 86%, 30%, .5);
+
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+@media (min-width: 768px) {
+  body {
+
+    padding: 0px;
+
+    
+  }
+  
+}
+
+
+/* make images easier to work with */
+
+img, 
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {  
+*,
+*::before,
+*::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+}
+
+
+/*  Utility classes */
+/* * Do one thing, and do it very well
+* Often only have one declaration, but they can have multiple when required
+* Allow things to be much more modular, and allow us to write a lot less in the long run
+*/
+
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap, 1rem);
+}
+
+.d-block {
+  display: block;
+}
+
+.container {
+  padding-inline: 2em;
+  margin-inline: auto;
+  max-width: 80rem;
+}
+
+.sr-only {
+position: absolute; 
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px; 
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap; /* added line */
+border: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+

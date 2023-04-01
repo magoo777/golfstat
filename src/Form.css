@@ -1,0 +1,179 @@
+
+.App-section {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex: 1 0 auto;
+  background-color: white;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 1rem;
+  }
+
+
+
+
+.App-section h3 {
+  margin: 20px 0;
+  }
+
+  
+  .App-main ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+  .btn:after {
+    content: '';
+    position: absolute;
+    display: none;
+  }
+  
+  .App-main .container input:checked ~ .btn:after {
+    display: block;
+  }
+  /* Customize the label (the container) */
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom radio button */
+  .radioBtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  .radio__bad {
+    border: 1px solid #ef2832;
+  }
+  .radio__ok {
+    border: 1px solid #ffdb4b;
+  }
+  .radio__good {
+    border: 1px solid #66bb6a;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .radio__bad,
+  .container:hover input ~ .radio__ok,
+  .container:hover input ~ .radio__good 
+   {
+    opacity: 0.5;
+    box-shadow: 0 0 0 6pt #f2f2f2;
+  }
+
+
+  .container:hover input ~ .radio__bad {
+    background-color: #ef2832;
+  }
+  .container:hover input ~ .radio__ok {
+    background-color: #ffdb4b;
+  }
+  .container:hover input ~ .radio__good {
+    background-color: #66bb6a;
+  }
+
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .radio__bad {
+    background-color: #ef2832;
+  }
+  .container input:checked ~ .radio__ok {
+    background-color: #ffdb4b;
+  }
+  .container input:checked ~ .radio__good {
+    background-color: #66bb6a;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .radioBtn:after {
+    content: '';
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .radioBtn:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .radioBtn:after {
+    top: 4px;
+    left: 4px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+ 
+  .container__form {
+    display: grid;
+    grid-template-columns: auto repeat(3, 50px);
+  }
+  .container__form h5 {
+    margin: 1px 30px 20px 0;
+    justify-self: end;
+  }
+  
+
+  .button-container {
+    margin: 0 auto 30px;
+    display: flex;
+    gap: 1rem;
+  }
+  .button-container button,
+  .button-container input {
+    background-color: transparent;
+    border: #248e0b 2px solid;
+    width: 75px;
+    color: #248e0b;
+    opacity: .5;
+  }
+
+  .wrapper-holes {
+    display: grid;
+    grid-template-columns: 220px auto 220px;
+  }
+
+
+
+.first {
+  display: grid;
+}
+.first img{
+  justify-self: flex-end;
+}
+
+
+  .wrapper-holes div {
+    align-self: center;
+  }
