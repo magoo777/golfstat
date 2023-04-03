@@ -191,7 +191,7 @@ article {
     .statgrid-perfectshots,
     .statgrid-goodshots,
     .statgrid-badshots {
-      width: 10px;
+      width: 5px;
     }
   }
   
@@ -200,7 +200,7 @@ article {
   
   }
   .statgrid-goodshots {
-    background-color: yellow;
+    background-color: #ffbe00;
   
   }
   .statgrid-badshots {
